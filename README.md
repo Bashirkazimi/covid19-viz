@@ -65,7 +65,7 @@ touch Procfile
 
 Then open the Procfile and type:
 ```
-web gunicorn worldbank:app
+web gunicorn covid:app
 ```
 
 Next, create a requirements file, which lists all of the Python library that your app depends on:
